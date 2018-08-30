@@ -6,7 +6,7 @@ public class RandomGuess {
 		// TODO Auto-generated method stub
 		 JOptionPane.showMessageDialog(null, "The number is "+
 		(1  + (int)(Math.random() * 100)));
-
+		 // Random number from 1-100
 	}
 
 }
