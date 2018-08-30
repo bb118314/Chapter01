@@ -18,7 +18,7 @@ public class Freelance {
 		total = num1 + num2;
 		
 		System.out.println("Your name is " + firstname);
-		System.out.println("Your total is  " + total);
+		System.out.println("Your total is " + total);
 
 
 	}
