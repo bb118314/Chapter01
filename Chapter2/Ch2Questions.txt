@@ -1,0 +1,16 @@
+1. What is the Scanner Class?
+
+The class which allows a user to input keyboard typing into a program.
+
+
+2. What are Floating Data points? How did they use this information for the Superman 3 movie?
+
+A number with a decimal point afterwards. A float uses 4 bytes, and a double uses 8. With more bytes, a double can be more precise with its
+extra bytes. In Superman III, Richard Pryor abused this lack of exact accuracy by taking fractions of pennies from bank accounts. This
+added up making him have quite the big wallet.
+
+
+3. What is the JOptionPane Class? How does it work?, What is the library input?
+
+A class which allows for a small graphical box to be programmed to display dialog. It works by displaying a window which is set by the user
+to display strings. To input this into Java, use import javax.swing.JOptionPane.
