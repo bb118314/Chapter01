@@ -17,6 +17,8 @@ public class DelgadosTacos {
 		double nachosp;
 		int nachos;
 		
+		
+		// Displays when program is started. Prompts users to input order.
 		 System.out.println("Welcome to Delgados Tacos!");
 		 System.out.print("How many tacos would you like? ($1.15): ");
 		 tacos = input.nextInt();
@@ -27,6 +29,7 @@ public class DelgadosTacos {
 		 System.out.println("How many nacho orders would you like? ($1.00): ");
 		 nachos = input.nextInt();
 		 
+		 //Math for prices
 		 tacop = tacos * 1.15;
 		 burritosp = burritos * 1.50;
 		 enchp = ench * 2.00;
@@ -35,6 +38,7 @@ public class DelgadosTacos {
 		 tax = price * 0.07;
 		 pricetax = price + tax;
 		 
+		 // Displays
 		 System.out.println("You ordered " + tacos + " taco(s), " + burritos + " burrito(s), " + ench + " enchilada(s), and " 
 		 + nachos + " order(s) of nachos. The cost is $" + price + " before tax. The final cost is $" + pricetax + " with tax. "
 		 + "Thank you for choosing Delgado's Tacos!");
